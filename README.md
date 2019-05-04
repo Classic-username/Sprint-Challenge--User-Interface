@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML just makes sense. Tags have been added to increase readability for EVERYONE. Programmers, programs, maintainers, users. Semantic provides meaning, so instead of having a million divs, you have sections or headers or asides. Fantastic examples that improve readability.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block introduces a page break and takes up horizontal space, and respects top and bottom margins.
+Display inline tkes up only the horizontal space of the content. No page break. Does not respect top and bottom margins.
 
 3. What are the 4 areas of the box model?
 
+Content > Padding > Border > Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align items center works on both axis. If you have the Flex Direction set to row or default, align-items center works on the main or horizontal axis. If you have the Flex direction set to column, align-items works on the cross or vertical axis. I've tested it.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is very powerful for developers. They can use git to view the various commits made by each other, so if they liked a previous commit or they broke their program, they can simply revert to a previous commit.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
