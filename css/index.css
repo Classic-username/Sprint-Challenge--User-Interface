@@ -73,19 +73,19 @@ p {
 
 .hIndex {
     display: flex;
-    margin: 20px;
-    justify-content: space-around;
+    margin: 20px 0;
+    justify-content: space-between;
 
 }
 .hIndex nav img {
-    margin-left: -60px;
+    
 }
 .firstImg {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .hIndex a {
-    margin-left: 30px;
+    margin-left: 40px;
     color: black;
     text-decoration: none;
     margin-right: 30px;
@@ -208,6 +208,9 @@ footer nav a {
 
 
 /* ABOUT PAGE */
+.secondImg {
+    margin-top: 20px;
+}
 
 .upperAbout {
     padding: 20px;
@@ -219,7 +222,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .bodyAbout div {
@@ -243,5 +246,6 @@ button {
 }
 
 .nearBottomAbout {
-
+    width: 760px;
+    margin: 30px 19px;
 }
