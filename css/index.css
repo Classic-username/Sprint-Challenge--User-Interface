@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+.hIndex {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+
+}
+.hIndex nav img {
+    margin-left: -60px;
+}
+.firstImg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hIndex a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,3 +163,49 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* MY CODE BEGINS */
+
+.boxes .box:first-child {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box1 {
+    background-color: dodgerblue;
+}
+
+
+/* ABOUT PAGE */
+
